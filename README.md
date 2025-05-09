@@ -1,21 +1,13 @@
-# Sistema de Ordens de Serviço para Oficinas
-Este projeto foi desenvolvido como a avaliação da disciplina de Programação Orientada a Objetos (POO) do curso de Engenharia de Software. Trata-se de um sistema de controle de ordens de serviço (OS) para oficinas mecânicas, com interface gráfica construída em Java Swing e persistência de dados por meio de arquivos .csv.
+# Sistema de Gerenciamento de Reservas
+📚 Descrição
+Projeto desenvolvido como parte da avaliação N1 da disciplina de Programação Orientada a Objetos (POO). O sistema importa dados de arquivos CSV, organiza-os em classes Java e exibe informações detalhadas sobre as reservas realizadas por clientes.
 
-🎯 Objetivo do Projeto
-O objetivo principal é aplicar os conceitos de orientação a objetos na criação de um sistema que:
+🎯 Objetivo
+Modelar os dados dos arquivos CSV com classes Java.
 
-Importe dados de arquivos CSV para listas de objetos.
+Importar os dados de forma estruturada.
 
-Modele classes relacionadas às entidades do sistema (Clientes, Reservas, Ordens de Serviço, etc.).
-
-Exiba de forma clara e organizada as informações relevantes das reservas.
-
-✅ Funcionalidades:
-Interface gráfica amigável utilizando Java Swing.
-
-Leitura e escrita de dados por meio de arquivos .csv.
-
-Exibição de uma lista com os seguintes dados:
+Apresentar uma lista com as seguintes informações:
 
 Nome do cliente
 
@@ -25,21 +17,15 @@ Data de check-in
 
 Data de check-out
 
-Status da reserva (Reservado / Não Reservado)
+Status da reserva (Reservado ou Não Reservado)
 
-Motivo caso a reserva não tenha sido realizada
+Motivo do conflito, caso não reservado
 
-🧱 Tecnologias Utilizadas
-Java (Programação orientada a objetos)
+🧠 Funcionalidades
+Leitura de arquivos CSV contendo clientes, reservas e conflitos.
 
-Java Swing (Interface gráfica)
+Modelagem orientada a objetos com classes específicas para cada entidade.
 
-Arquivos .CSV (Persistência de dados)
+Verificação de conflitos de reserva.
 
-📚 Requisitos de Avaliação
-"Desenvolva as classes relacionadas aos arquivos em anexo, importe os dados para listas correspondentes a cada classe. Apresente uma lista com o nome do cliente, o ID da reserva, a data de check-in, a data de check-out, o status da reserva (reservado ou não reservado) e o motivo caso não reservado."
-
-📌 Observações
-Este projeto foi desenvolvido com fins acadêmicos e pode ser expandido para aplicações reais.
-
-A arquitetura permite fácil extensão para uso com banco de dados reais, como MySQL ou PostgreSQL.
+Exibição formatada das reservas com status e motivo, quando aplicável.
